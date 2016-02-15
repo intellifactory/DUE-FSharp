@@ -1,4 +1,4 @@
-# Functional Programming in F#
+# Functional Programming in F# 
 #### University of Dunaújváros 
 ##### Adam Granicz, Andras Janko, IntelliFactory
 
