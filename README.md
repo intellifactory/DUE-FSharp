@@ -21,3 +21,4 @@ Recommended reading: Expert F# 3.0 / 4.0
 ##### Lessons:
 
 * 2016.02.12 [See script](https://github.com/intellifactory/DUE-FSharp-2016/blob/master/Script1.fsx)
+* 2016.02.19 [See script](https://github.com/intellifactory/DUE-FSharp-2016/blob/master/Script2.fsx)
