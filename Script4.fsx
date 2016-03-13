@@ -105,7 +105,9 @@ Add(Num 1., Num 1.)
 
 // we can define custom operators to make writing Expr values easier
 let (^+) a b = Add (a, b) // define an infix operator
+let (^-) a b = Sub (a, b) // define an infix operator
 let (^*) a b = Mul (a, b) 
+let (^/) a b = Div (a, b) 
 Num 1. ^+ Num 1.
 
 let (!^) a = Num a // define a prefix operator, prefix operators must start with ~ or !
@@ -165,15 +167,43 @@ let rec diff (var: char) expr =
     | Num _ -> Num 0.
     | Var x -> if x = var then Num 1. else Num 0.
     | Add (a, b) -> Add (d a, d b)
-    | Sub ...
-    | Mul (a, b) -> (d a ^* b) ^+ (a ^* d b)
+    | Sub (a,b) -> Sub (d a, d b)
+    | Mul (a,b) -> (d a ^* b) ^+ (a ^* d b)              
+    | Div (a,b) -> (b ^* d a ^- a ^* d b) ^/ (b ^* b)
+
+printExpr (Var 'x' ^* ((Var 'x' ^* Num 4.0) ^+ Num 3.0))
 
 // Extra exercise: write some simplification rules
 // add recursivity
 let rec simplify expr =
+    // a helper function for repeated simplification where possible
+    // we can use this for all 4 operations by passing the
+    // union case constructor function as parameter `op` 
+    let rc op a b =
+        let res = op (simplify a, simplify b)
+        if res = expr
+        then res 
+        else simplify res 
+
     match expr with
     | Add (Num a, Num b) -> Num (a + b)
     | Add (a, Num 0.) | Add (Num 0., a) -> a 
+    | Mul (a, Num 1.) | Mul (Num 1., a) -> a
+    | Mul (_, Num 0.) | Mul (Num 0., _) -> Num 0.
+
+    | Add (a, b) -> rc Add a b // Add(simplify a, simplify b)
+    | Sub (a, b) -> rc Sub a b
+    | Mul (a, b) -> rc Mul a b
+    | Div (a, b) -> rc Div a b
     // ... you can come up with more simplification rules
     // test it if you have something
     | _ -> expr
+
+// a test
+diff 'x' (Var 'x' ^* ((Var 'x' ^* Num 4.0) ^+ Num 3.0))
+|> simplify
+|> printExpr
+
+// instead of (3 > 4) ? 0 : 1 in C# or JavaScript
+// F# is expression-based, if/then/else is an expression
+(if 3 > 4 then 0 else 1)
