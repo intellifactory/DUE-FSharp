@@ -67,16 +67,29 @@ let bothOccur =
 let words =
     paragraphs 
     |> Seq.collect (fun p -> p.Split(' '))
-    |> Seq.map (fun s -> s.Trim('.', '?', '-', ',', ';', ':', '!', '"'))
+//    |> Seq.map (fun s -> s.Trim('.', '?', '-', ',', ';', ':', '!', '"', ''', '(', ')'))
+    |> Seq.map (fun s -> s.Trim(".?-,;:!\"'()".ToCharArray())) // trick for a shorter code 
     |> Seq.filter (fun s -> s <> "")
     |> Array.ofSeq   
 
 // doing a word statistic
+
 words
 |> Array.countBy (fun s -> s.ToLower())
 
 // exercises: sort it. 1. by alphabet 2. by number of occurrence
+words
+|> Array.countBy (fun s -> s.ToLower())
+|> Array.sortByDescending snd
 
 // do countby on the length of words
+words
+|> Array.countBy (fun s -> s.Length)
+|> Array.sortBy fst
 
 // which 5-letter word is the most common? second most common?
+words
+|> Array.filter (fun s -> s.Length = 5)
+|> Array.countBy (fun s -> s.ToLower())
+//|> Array.maxBy snd |> fst // most common
+|> Array.sortBy snd |> Array.item 1 |> fst // second most common
