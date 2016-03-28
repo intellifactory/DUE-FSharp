@@ -9,7 +9,7 @@
 // for complex data, you have to create multiple types
 // playing cards have 2 properties, suit and rank, lets create types for them:
 
-[<NoComparison>] // this disables creating a default comparison
+//[<NoComparison>] // this disables creating a default comparison
 type Suit =
     | Clubs
     | Diamonds
@@ -87,8 +87,8 @@ Array.allPairs allRanks allSuits
 // then : we should shuffle it!
 
 // Random number:
-let ran = System.Random() // generator
-ran.Next(52)
+//let ran = System.Random() // generator
+//ran.Next(52)
 
 // number of permutations too big for int32 range!
 // if we work from a single seed, not all card permutations
@@ -100,11 +100,13 @@ ran.Next(52)
 // so more work is needed to get a random number
 
 // first we write a helper that picks a random element of a sequence if it is not empty
+
+let ran = System.Random()
 let pickRandom (set: _ seq) =
     let arr = Array.ofSeq set
     if arr.Length = 0 then None
     else
-        let i = System.Random().Next(arr.Length)  
+        let i = ran.Next(arr.Length)  
         Some arr.[i] 
 
 // test it
@@ -135,5 +137,73 @@ let notPerfectShuffle arr =
 // exercise: a function that gives true if all cards in hand
 // has the same suit
 let sameSuit hand =
-    hand |> Seq.map suit |> ???
+// maybe the cleanest solution:
+    hand |> Seq.map suit |> Seq.distinct |> Seq.length = 1
+// some alternatives:
+//    hand |> Seq.distinctBy suit |> Seq.length = 1
+//    hand |> Seq.groupBy suit |> Seq.length = 1
+//    hand |> Seq.map suit |> Set.ofSeq |> Set.count = 1
 
+// Set is an immutable type for sets
+Set [ 4; 5 ; 1 ] = Set [ 1; 5 ; 1; 4; 4 ]
+
+// this will be helpful for straight helper
+let straightRanks =
+    Array.append [| Ace |] allRanks |> Array.windowed 5 |> Array.map Set
+
+// exercises: 
+let straight hand = // also allows straight flush
+    let ranksSet = hand |> Seq.map rank |> Set  
+    straightRanks |> Array.contains ranksSet
+    
+let fourOfAKind hand =
+    hand |> Seq.countBy rank |> Seq.map snd |> Set = Set [ 1; 4 ]
+    
+let fullHouse hand =
+    hand |> Seq.countBy rank |> Seq.map snd |> Set = Set [ 2; 3 ]
+
+let hand = deck |> Array.toSeq |> Seq.take 5 |> List.ofSeq
+
+// testing:
+straight hand // returns true, we have drawn from the unsorted deck
+
+straight (shuffle deck |> Seq.take 5)
+
+// exercise:
+//let fourOfAKind hand : option<Rank> = ...
+// return not just "is it 4 of a kind", but the rank of the 4 cards when it is
+
+// solution
+//let fourOfAKind hand : option<Rank> =
+//    match hand |> Seq.countBy rank |> Seq.sortByDescending snd |> Array.ofSeq with
+//    | [| r, 4; _ |] -> Some r
+//    | _ -> None
+
+let hand2 = // for testing
+    [|  
+        Card (Number 5, Clubs)
+        Card (Number 5, Hearts)
+        Card (Number 5, Diamonds)
+        Card (Number 5, Spades)
+        Card (Number 7, Spades)
+    |]
+
+// the same as before as an active pattern
+// it is a special function that can be used in match expressions
+// this is a partial active pattern, contains a wildcard case
+let (|FourOfAKind|_|) hand : option<Rank> =
+    match hand |> Seq.countBy rank |> Seq.sortByDescending snd |> Array.ofSeq with
+    | [| r, 4; _ |] -> Some r
+    | _ -> None
+
+match hand2 with
+| FourOfAKind r -> printfn "four of a kind: %A" r
+| _ -> printfn "unrecognized"
+
+// a complete active pattern
+let (|Odd|Even|) i =
+    if i % 2 = 0 then Even else Odd
+
+match 4 + 3 with
+| Odd -> printfn "odd"
+| Even -> printfn "even"
