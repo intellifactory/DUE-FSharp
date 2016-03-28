@@ -26,3 +26,4 @@ Recommended reading: Expert F# 3.0 / 4.0
 * 2016.03.04 [See script](https://github.com/intellifactory/DUE-FSharp-2016/blob/master/Script4.fsx)
 * 2016.03.11 [See script](https://github.com/intellifactory/DUE-FSharp-2016/blob/master/Script5.fsx)
 * 2016.03.18 [See script](https://github.com/intellifactory/DUE-FSharp-2016/blob/master/Script6.fsx)
+* 2016.03.25 [See script](https://github.com/intellifactory/DUE-FSharp-2016/blob/master/Script7.fsx)
