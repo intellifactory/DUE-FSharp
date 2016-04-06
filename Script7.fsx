@@ -174,3 +174,24 @@ let populationQ =
 // homework:
 // experiment and find anything you think is interesting in World Bank data
 // by query or Seq operations
+
+let lifeExpectancy =
+    wb.Regions.World.Countries |> Seq.map (fun c -> c.Name, c.Indicators.``Life expectancy at birth, total (years)``.[2015])
+    |> Seq.sortByDescending snd
+    |> Seq.take 10
+    |> Array.ofSeq
+
+// exercise:
+// Which country has increased "CO2 emissions (metric tons per capita)" with the largest 
+// percentage from 1980 to 2010 (among those which has both data available)
+let firstExercise =
+    query {
+        for c in wb.Regions.World.Countries do
+        let data1980 = float c.Indicators.``CO2 emissions (metric tons per capita)``.[1980]
+        let data2010 = float c.Indicators.``CO2 emissions (metric tons per capita)``.[2010]
+        where (data1980 > 0. && data1980 > 0.) // to filter out `nan` values
+        let increaseRatio = data2010/data1980
+        sortByDescending increaseRatio
+        select (c.Name, increaseRatio)
+        head
+    }
