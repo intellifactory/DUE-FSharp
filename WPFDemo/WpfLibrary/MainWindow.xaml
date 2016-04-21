@@ -1,0 +1,24 @@
+﻿<Window x:Class="WpfLibrary.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfLibrary"
+        mc:Ignorable="d"
+        Title="My application" Height="284.696" Width="423.915">
+    <Grid>
+        <Button x:Name="addButton" Content="Add" Margin="0,0,10,10" HorizontalAlignment="Right" Width="65" Height="20" VerticalAlignment="Bottom" Command="{Binding Add}"/>
+        <ListView x:Name="listView" Margin="10,10,10,66" ItemsSource="{Binding Names}">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="First name" DisplayMemberBinding="{Binding FirstName}"/>
+                    <GridViewColumn Header="Last name" DisplayMemberBinding="{Binding LastName}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <TextBox x:Name="textBox1" Margin="82,0,80,38" TextWrapping="Wrap" Height="23" VerticalAlignment="Bottom" Text="{Binding FirstName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+        <TextBox x:Name="textBox2" Margin="82,0,80,10" TextWrapping="Wrap" Height="23" VerticalAlignment="Bottom" Text="{Binding LastName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+        <Label x:Name="label" Content="First name:" HorizontalAlignment="Left" Margin="10,0,0,38" Height="26" VerticalAlignment="Bottom"/>
+        <Label x:Name="label1" Content="Last name:" HorizontalAlignment="Left" Margin="10,0,0,10" RenderTransformOrigin="0.051,-0.106" Height="26" VerticalAlignment="Bottom"/>
+    </Grid>
+</Window>
