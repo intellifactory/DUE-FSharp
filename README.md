@@ -6,25 +6,23 @@ Recommended reading: Expert F# 3.0 / 4.0
 
 ##### Additional resources:
 
-* [F# language reference](https://msdn.microsoft.com/en-us/library/dd233181.aspx)
+* [F# language reference](https://docs.microsoft.com/en-us/dotnet/fsharp/language-reference/)
 * [F# software foundation](http://fsharp.org/)
-* [Try F#](http://www.tryfsharp.org/)
+* [Try F# in browser](http://fsbolero.io/)
 * [WebSharper](http://websharper.com/)
 * [Try WebSharper](http://try.websharper.com/)
 * [F# for fun and profit (blog)](http://fsharpforfunandprofit.com/)
 
 ##### Course completion requirement: Home project
 
-* Deadline for submitting project ideas: April 28, 2016
-* Deadline for submitting finished project: May 21, 2016
+* Deadline for submitting project ideas: March 22, 2019
+* Deadline for submitting finished project: May 24, 2019
 
-##### Lessons:
+##### Materials:
 
-* 2016.02.12 [See script](https://github.com/intellifactory/DUE-FSharp-2016/blob/master/Script1.fsx)
-* 2016.02.19 [See script](https://github.com/intellifactory/DUE-FSharp-2016/blob/master/Script2.fsx)
-* 2016.02.26 [See script](https://github.com/intellifactory/DUE-FSharp-2016/blob/master/Script3.fsx)
-* 2016.03.04 [See script](https://github.com/intellifactory/DUE-FSharp-2016/blob/master/Script4.fsx)
-* 2016.03.11 [See script](https://github.com/intellifactory/DUE-FSharp-2016/blob/master/Script5.fsx)
-* 2016.03.18 [See script](https://github.com/intellifactory/DUE-FSharp-2016/blob/master/Script6.fsx)
-* 2016.03.25 [See script](https://github.com/intellifactory/DUE-FSharp-2016/blob/master/Script7.fsx)
-* 2016.04.01 [See script](https://github.com/intellifactory/DUE-FSharp-2016/blob/master/Script8.fsx)
+* [1. Getting Started](01-GettingStarted.md)
+* [2. Programming paradigms of F#](02-ProgrammingParadigms.md)
+* [3. Values and functions](03-ValuesAndFunctions.md)
+* [4. Working with lists](04-WorkingWithLists.md)
+
+Also you can find scripts from earlier course in the [Course2016](Course2016) folder.
