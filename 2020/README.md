@@ -13,40 +13,42 @@
 * [F# language reference](https://docs.microsoft.com/en-us/dotnet/fsharp/language-reference/)
 * [Tour of F#](https://docs.microsoft.com/en-us/dotnet/fsharp/tour)
 * [The WebSharper documentation](http://developers.websharper.com/)
-
 * Setting up your F# environment
     * Installation - https://docs.microsoft.com/en-us/dotnet/fsharp/get-started/install-fsharp
-
     * Visual Studio Code - https://docs.microsoft.com/en-us/dotnet/fsharp/get-started/get-started-vscode
-
     * Visual Studio - https://docs.microsoft.com/en-us/dotnet/fsharp/get-started/get-started-visual-studio
-
     * F# with .NET CLI - https://docs.microsoft.com/en-us/dotnet/fsharp/get-started/get-started-command-line
-
-* [Version control](https://en.wikipedia.org/wiki/Version_control) in general
-    * [git learning resources](https://try.github.io/)
-
-    * [git handbook](https://guides.github.com/introduction/git-handbook/)
+* Tooling
+    * [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+    * [Version control](https://en.wikipedia.org/wiki/Version_control) in general
+        * [git learning resources](https://try.github.io/)
+        * [git handbook](https://guides.github.com/introduction/git-handbook/)
 
 ### Evaluation
 
- * Ways to earn a grade:
-
-   * Home work - 100 points<br />
-   * Project work - 150 points<br />
+* Ways to earn a grade:
+   * Home work - 100 points
+   * Project work - 150 points
    * Extra credit - TBA
-
- * 5 - 225+ points
- * 4 - 200+ points
- * 3 - 175+ points
- * 2 - 150+ points
- * Fail - below 150 points
+* Grade 5 - 225+ points
+* Grade 4 - 200+ points
+* Grade 3 - 175+ points
+* Grade 2 - 150+ points
+* Fail - below 150 points
 
 ### Assignments
 
-* [Assignment #1](assignment-01.md) - due date: Apr 7, 2020.
+* [Assignment #1](assignment-01.md) - due date: Apr 7, 2020. (30+15 points)
   * Numbers, sequences/lists, mapping/filtering/folding, records, discriminated unions, functions/recursion + extra credit
-  
+
+### Project work
+
+During the course of the semester, you will work on and complete two larger projects.
+
+1. Mid-term project (50 points) - this is a web project meant to help you dig deeper into web programming with F#. More details to follow soon.
+
+2. Personal project (100 points) - this is a project you can pick for youself, and it is meant to help you explore F# more fully at your own pace and according to your own interest.
+
 ### Course schedule
 
 * Feb 21, 2020 - Instructor: Adam Granicz
@@ -68,19 +70,12 @@
 
     * MSDN - F# reference
         * Basic types - https://docs.microsoft.com/en-us/dotnet/fsharp/language-reference/basic-types
-        
         * **Unit type** -https://docs.microsoft.com/en-us/dotnet/fsharp/language-reference/unit-type
-
         * **Tuples** - https://docs.microsoft.com/en-us/dotnet/fsharp/language-reference/tuples
-
         * **Records** - https://docs.microsoft.com/en-us/dotnet/fsharp/language-reference/records
-
         * **Options** - https://docs.microsoft.com/en-us/dotnet/fsharp/language-reference/options
-
         * **Values, immutability** - https://docs.microsoft.com/en-us/dotnet/fsharp/language-reference/values/
-        
-        * Type inference and automatic generalization - https://docs.microsoft.com/en-us/dotnet/fsharp/language-reference/type-inference
-        
+        * Type inference and automatic generalization - https://docs.microsoft.com/en-us/dotnet/fsharp/language-reference/type-inference        
 
 * Feb 28, 2020 - Instructor: Adam Granicz
     * Chapter 3 - Functional programming
@@ -98,13 +93,9 @@
 
     * MSDN - F# reference
         * **Discriminated unions** - https://docs.microsoft.com/en-us/dotnet/fsharp/language-reference/discriminated-unions
-
         * **Active patterns** - https://docs.microsoft.com/en-us/dotnet/fsharp/language-reference/active-patterns
-
         * **Namespaces, nested namespaces** - https://docs.microsoft.com/en-us/dotnet/fsharp/language-reference/namespaces
-
         * **Modules, nested modules** - https://docs.microsoft.com/en-us/dotnet/fsharp/language-reference/modules
-
         * **Functions, anonymous functions, currying, higher-order functions**
             * https://docs.microsoft.com/en-us/dotnet/fsharp/language-reference/functions/, 
             * https://docs.microsoft.com/en-us/dotnet/fsharp/language-reference/functions/lambda-expressions-the-fun-keyword
@@ -128,15 +119,10 @@
 
     * MSDN - F# reference
         * **Copy and update record expressions** - https://docs.microsoft.com/en-us/dotnet/fsharp/language-reference/copy-and-update-record-expressions
-
         * **Arrays** - https://docs.microsoft.com/en-us/dotnet/fsharp/language-reference/arrays
-
         * **Exception handling** - https://docs.microsoft.com/en-us/dotnet/fsharp/language-reference/exception-handling/
-
         * **F# collection types** - https://docs.microsoft.com/en-us/dotnet/fsharp/language-reference/fsharp-collection-types
-
         * **Sequences** - https://docs.microsoft.com/en-us/dotnet/fsharp/language-reference/sequences
-
         * **Slices** - https://docs.microsoft.com/en-us/dotnet/fsharp/language-reference/slices
 
 * Mar 20, 2020 - Instructor: Adam Granicz
@@ -163,7 +149,6 @@
 
     * Visual F# Team Blog
         * Tail calls in F# - https://devblogs.microsoft.com/fsharpteam/tail-calls-in-f/
-        
         * Understanding tail recursion - https://docs.microsoft.com/en-us/archive/blogs/chrsmith/understanding-tail-recursion
 
 * Apr 3, 2020 - Instructor: Adam Granicz
