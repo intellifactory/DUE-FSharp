@@ -38,16 +38,16 @@
 
 ### Assignments
 
-* [Assignment #1](assignment-01.md) - due date: Apr 7, 2020. (30+15 points)
+* [Assignment #1](assignment-01.md) - (30+15 points, due date: **Apr 7, 2020**).
   * Numbers, sequences/lists, mapping/filtering/folding, records, discriminated unions, functions/recursion + extra credit
 
 ### Project work
 
 During the course of the semester, you will work on and complete two larger projects.
 
-1. Mid-term project (50 points) - this is a web project meant to help you dig deeper into web programming with F#. More details to follow soon.
+1. [Mid-term project](project-01.md) (50 points, due date: **Apr 24, 2020**). A web project meant to help you dig deeper into web programming with F#. You can implement more than one project to earn extra credit.
 
-2. Personal project (100 points) - this is a project you can pick for youself, and it is meant to help you explore F# more fully at your own pace and according to your own interest.
+2. Personal project (100 points, due date: **last Sunday of the semester**) - this is a project you can pick for youself, and it is meant to help you explore F# more fully at your own pace and according to your own interest.
 
 ### Course schedule
 

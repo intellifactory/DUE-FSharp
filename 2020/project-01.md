@@ -47,7 +47,7 @@ Implement a book database as a WebSharper client-server application that allows 
  * Search books by part of their title, part of their author name, or exact year published (using one query).
  * Display all their stored books.
 
-Storage should be implemented as an in-memory storage (a list, a map, etc.) on the server.
+Storage should be implemented as a server-side in-memory store (list, map, etc.).
 
 Extra credit:
 
@@ -65,12 +65,11 @@ Implement a weight tracker application as a WebSharper client-server application
  * Display all stored measurements as a Day/(Loss or Gain)/Weight table.
  * Display a line chart for all measurements (X-axis: date, Y-axis: weight).
 
-Storage should be implemented as a server-side in-memory storage (list, map, etc.), and charting should be done with [WebSharper.Charting](https://github.com/dotnet-websharper/charting).
+Storage should be implemented as a server-side in-memory store (list, map, etc.), and charting should be done with [WebSharper.Charting](https://github.com/dotnet-websharper/charting).
 
 Extra credit:
 
  * Switching storage to a server-side database (MS SQL). *(+15 points)*
  * Implementing user registration (username and password) and logging in/out. *(+15 points)*
- * Binding and using a JS charting library. *(up to +20 points, depending on the library and its binding)*, OR
- * Inlining calls to a JS charting library. *(+10 points)*
+ * Binding and using another/custom JS charting library. *(up to +20 points, depending on the library and its binding)*, OR inlining calls to such library. *(+10 points)*
  * Elaborate UI design. *(up to +10 points)*
