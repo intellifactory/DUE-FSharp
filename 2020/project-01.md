@@ -5,7 +5,7 @@ What to turn in: the URL of a public GitHub/GitLab/Bitbucket repository that con
  * your source files - in the `src` folder. You should add comments for each code block (types, functions, etc.) 
  * a `README.md` that describes your project, with screenshots, and provides step-by-step instructions on building it.
  
-## Project #1 *(25 points)* - A web calculator
+## Project #1 - A web calculator *(25 points)*
 
 Develop a single-page application (SPA) that implements a simple web calculator. It should support:
 
@@ -39,7 +39,7 @@ Extra credit:
  * Implement `1/x`. *(+5 points)*
  * Elaborate UI design/layout. *(up to +10 points)*
 
-## Project #2 (50 points) - A book database
+## Project #2 - A book database *(50 points)*
 
 Implement a book database as a WebSharper client-server application that allows users to:
 
@@ -57,7 +57,7 @@ Extra credit:
  * Displaying books with a pager. *(+5 points)*
  * Elaborate UI design. *(up to +10 points)*
 
-## Project #3 (50 points) -
+## Project #3 - A weight tracker *(50 points)*
 
 Implement a weight tracker application as a WebSharper client-server application that allows users to:
 
