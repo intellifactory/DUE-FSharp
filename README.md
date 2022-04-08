@@ -22,12 +22,13 @@ Syme, D., Granicz. A., Cisternino A. (2017). *[Expert F# 4.0](https://www.apress
 * 2018
 * [2019](2019/README.md)
 * [2020](2020/README.md)
+* [2022](2022/README.md)
 
 ### Additional resources
 
 * [F# language reference](https://docs.microsoft.com/en-us/dotnet/fsharp/language-reference/)
-* [FSSF - the F# Software Foundation](http://fsharp.org/)
+* [FSSF - the F# Software Foundation](https://fsharp.org/)
 * [Try F# on WASM](https://tryfsharp.fsbolero.io/)
-* [WebSharper](http://websharper.com/)
-* [Try WebSharper](http://try.websharper.com/)
-* [F# for fun and profit (blog)](http://fsharpforfunandprofit.com/)
+* [WebSharper](https://websharper.com/)
+* [Try WebSharper](https://try.websharper.com/)
+* [F# for fun and profit (blog)](https://fsharpforfunandprofit.com/)
