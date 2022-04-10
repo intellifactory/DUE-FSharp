@@ -131,8 +131,35 @@ During the course of the semester, you will work on and complete two larger proj
 * Mar 25, 2022 - [video](https://www.facebook.com/granicz.adam/videos/3243498595872041)
 
 * Apr 1, 2022 (online) - [video](https://www.facebook.com/granicz.adam/videos/1120076285504497)
-* Apr 8, 2020
-* Apr 15, 2020
-* Apr 22, 2020
-* Apr 29, 2020
-* May 6, 2020
+  * Reactive programming with WebSharper.UI
+    * Reactive variables and ListModels
+    * Two-way binding of UI controls and models
+    * React vs WebSharper.UI
+      * Virtual DOM, DOM diffing vs dynamic dataflow
+
+* Apr 8, 2022 (online) - [video](https://www.facebook.com/granicz.adam/videos/1231177670747891)
+  * Working with databases (MS SQL Server)
+    * [MS SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
+    * [MS SQL Server Management Studio](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15)
+      * Creating databases
+      * Creating tables
+      * Primary keys - GUID vs auto-incremented int, uniqueness constraint
+      * Foreign keys - foreign key (FK) constraint
+  * [Overview of F# data access](https://fsharp.org/guides/data-access/)
+    * Key considerations
+      * .NET Core/net50+ support
+      * Object-Relational-Mapping (ORM) capabilities
+      * Queries as F# (computation expressions) vs SQL
+      * Type-safety vs performance
+    * [Accessing SQL Server - comparison](http://fsprojects.github.io/FSharp.Data.SqlClient/comparison.html), old but useful
+    * Key choices
+      * [FSharp.Data.SqlClient](http://fsprojects.github.io/FSharp.Data.SqlClient)
+      * [SQLProvider](http://fsprojects.github.io/SQLProvider/) - issues with net50+
+      * [Dapper.FSharp](https://github.com/Dzoukr/Dapper.FSharp)
+      * [DustyTables](https://github.com/Zaid-Ajaj/DustyTables)
+
+* Apr 13, 2022 - Possible extra day, TBD
+* Apr 15, 2022 - Holiday
+* Apr 22, 2022
+* Apr 29, 2022
+* May 6, 2022
