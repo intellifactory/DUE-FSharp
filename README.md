@@ -23,6 +23,7 @@ Syme, D., Granicz. A., Cisternino A. (2017). *[Expert F# 4.0](https://www.apress
 * [2019](2019/README.md)
 * [2020](2020/README.md)
 * [2022](2022/README.md)
+* [2024](2024/README.md)
 
 ### Additional resources
 
