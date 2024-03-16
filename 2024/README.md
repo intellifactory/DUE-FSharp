@@ -39,10 +39,10 @@
 
 ### Assignments
 
-* Assignment #1 - (30 points, due date: **Mar 22, 2024**).
-  * Numbers, sequences/lists, mapping/filtering/folding, records, discriminated unions, functions/recursion
+* [Assignment #1](assignment-01.md) - (40 points, due date: **Mar 29, 2024**).
+  * Numbers, sequences/lists, mapping/filtering/folding, discriminated unions, functions/recursion
 * Assignment #2 - (30 points) - TBD
-* Assignment #3 - (40 points) - TBD
+* Assignment #3 - (30 points) - TBD
 
 ### Project work
 
