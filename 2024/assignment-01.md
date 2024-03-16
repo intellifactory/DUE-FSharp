@@ -14,15 +14,15 @@ What to turn in: a single `.fsx` script that contains your solutions to every pr
 
 5. Write a function that takes a list of strings and an integer `n`, returning a list of strings where each string has a length greater than n. *(1 point)*
 
-6. Write a function that takes a list of integers and an divisor, and returns the count of numbers which are divisible by it. *(2 point)*
+6. Write a function that takes a list of integers and an divisor, and returns the count of numbers which are divisible by it. *(2 points)*
 
-7. Create a function that takes a list and an element, and returns all the indices of the list where this element can be found. *(2 point)*
+7. Create a function that takes a list and an element, and returns all the indices of the list where this element can be found. *(2 points)*
 
-8. Given a list of strings, write a function that concatenates only those strings that are longer than a given length `n`. *(2 point)*
+8. Given a list of strings, write a function that concatenates only those strings that are longer than a given length `n`. *(2 points)*
 
-9. Assuming a list of tuples where each tuple contains an `(id, value)`, write a function to find the tuple with the maximum value. *(2 point)*
+9. Assuming a list of tuples where each tuple contains an `(id, value)`, write a function to find the tuple with the maximum value. *(2 points)*
 
-10. Given a list of elements that could repeat, write a function that returns a list of tuples, each containing an element from the input list and the number of times it appears. *(2 point)*
+10. Given a list of elements that could repeat, write a function that returns a list of tuples, each containing an element from the input list and the number of times it appears. *(2 points)*
 
 
 ## Discriminated unions *(10 points)*
