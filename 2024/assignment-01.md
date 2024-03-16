@@ -53,4 +53,4 @@ What to turn in: a single `.fsx` script that contains your solutions to every pr
 
 ## Extra credit
 
-You can turn in [first assignment from 2022](../2022/assignment-01.md) for extra credit.
+You can turn in the [first assignment from 2022](../2022/assignment-01.md) for extra credit.
