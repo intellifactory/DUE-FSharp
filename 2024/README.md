@@ -4,7 +4,7 @@
 
 ### Instructor
 
-* Adam Granicz ([GitHub:granicz](https://github.com/granicz), [Twitter:@granicz](https://twitter.com/granicz)), [IntelliFactory](https://intellifactory.com)
+* Adam Granicz (adam@intellifactory.com, [GitHub:granicz](https://github.com/granicz), [Twitter:@granicz](https://twitter.com/granicz)), [IntelliFactory](https://intellifactory.com)
 
 ### Course and study material
 
@@ -51,6 +51,12 @@ During the course of the semester, you will work on and complete two larger proj
 1. Mid-term project (50 points, due date: **Apr 26, 2024**). TBD
 
 2. Personal project (100 points, due date: **last Sunday of the semester**) - this is a project you can pick for youself, and it is meant to help you explore F# more fully at your own pace and according to your own interest.
+
+### Course sandbox
+
+You can find the code walkthroughs in the course sandbox repository:
+
+* [DUE-FSharp-Sandbox-2024](https://github.com/intellifactory/DUE-FSharp-Sandbox-2024)
 
 ### Course schedule
 
@@ -127,7 +133,20 @@ During the course of the semester, you will work on and complete two larger proj
 
 * Mar 29, 2024 - **National holiday**, no class
 
-* Apr 5, 2024 (online) - TBD
+* Apr 5, 2024 (online) - be sure to follow along the course Sandbox repository (see above)
+  * [Asynchronous computations](https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/async-expressions)
+  * Installing [WebSharper project templates](https://docs.websharper.com/basics/templates/)
+  * Sitelets - [doc](https://developers.websharper.com/docs/v4.x/fs/sitelets)
+    * Routing via endpoint type annotations, endpoint modifiers (`EndPoint`, `Json`, `FormData`)
+    * Returning various content types (Text, Json, HTML, error codes, custom responses)
+    * Implementing microservices (POST/GET)
+  * Client-side programming with WebSharper.UI - [doc](https://developers.websharper.com/docs/v4.x/fs/ui)
+    * Reactive variables and views
+    * Templating
+    * Calling RPCs
+  * Example application: [IntelliLogo](https://github.com/granicz/IntelliLogo)
+
+
 * Apr 12, 2024 (online) - TBD
 * Apr 19, 2024 (online) - TBD
 * Apr 26, 2024 (online) - TBD
