@@ -58,6 +58,8 @@ You can find the code walkthroughs in the course sandbox repository:
 
 * [DUE-FSharp-Sandbox-2024](https://github.com/intellifactory/DUE-FSharp-Sandbox-2024)
 
+> If you encounter NuGet errors about missing `WebSharper.*` packages, make sure you have the WebSharper developer NuGet feed configured on your system. [See instructions.](https://docs.websharper.com/basics/nuget/#configuring-the-websharper-developer-feed)
+
 ### Course schedule
 
 * Mar 1, 2024 (online)
@@ -147,8 +149,23 @@ You can find the code walkthroughs in the course sandbox repository:
   * Example application: [IntelliLogo](https://github.com/granicz/IntelliLogo)
 
 
-* Apr 12, 2024 (online) - TBD
-* Apr 19, 2024 (online) - TBD
+* Apr 12, 2024 (online)
+
+  * WebSharper.UI templating - see the Sandbox
+    * Simple web form to collect user data
+    * Client->Server calls (RPC)
+
+* Apr 19, 2024 (online)
+  * WebSharper.UI templating
+    * Understanding the difference between `FromDocument` and `Inline` for the client-side templating behavior
+  * [WebSharper.Forms](https://github.com/dotnet-websharper/forms) - see the Sandbox
+  * [WebSharper.Charting](https://github.com/dotnet-websharper/forms) - see the Sandbox
+  * [Active patterns](https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/active-patterns)
+    * Single-case - used for value conversion
+    * Multi-case - used for subdiving into a closed set of "shapes"
+    * Partial - used to deal with only a partial set of input values -> must return an option 
+    * Parameterized partial - using an argument to drive how the returned value is computed 
+
 * Apr 26, 2024 (online) - TBD
 * May 3, 2024 (online) - TBD
 * May 10, 2024 (online) - TBD
