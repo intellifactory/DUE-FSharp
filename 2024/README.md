@@ -62,8 +62,9 @@ You can find the code walkthroughs in the course sandbox repository:
 
 ### Course schedule
 
-* Mar 1, 2024 (online)
-
+<details>
+  <summary>Mar 1, 2024 (online)</summary>
+  
   * Chapter 2, Chapter 3 - Functional programming
     * Your first F# program - analyzing a string for duplicate words
     * Using F# Interactive (FSI/fsi)
@@ -86,8 +87,11 @@ You can find the code walkthroughs in the course sandbox repository:
       * [**Options**](https://docs.microsoft.com/en-us/dotnet/fsharp/language-reference/options)
       * [**Values, immutability**](https://docs.microsoft.com/en-us/dotnet/fsharp/language-reference/values/)
       * [Type inference and automatic generalization](https://docs.microsoft.com/en-us/dotnet/fsharp/language-reference/type-inference)
+</details>
 
-* Mar 8, 2024 (online)
+<details>
+  <summary>Mar 8, 2024 (online)</summary>
+  
   * Expert F# 4 - Chapter 3 - Functional programming
     * Basic types and their literals (`bool`, `int`, `float`, `double`, `string`, `unit`)
     * Arithmetic operators, using type annotations to drive overload selection
@@ -109,10 +113,15 @@ You can find the code walkthroughs in the course sandbox repository:
         * https://docs.microsoft.com/en-us/dotnet/fsharp/language-reference/functions/, 
         * https://docs.microsoft.com/en-us/dotnet/fsharp/language-reference/functions/lambda-expressions-the-fun-keyword
         * Recurive, and mutually recursive functions - https://docs.microsoft.com/en-us/dotnet/fsharp/language-reference/functions/recursive-functions-the-rec-keyword
+</details>
 
-* Mar 15, 2024 - **National holiday**, no class
+<details>
+  <summary>Mar 15, 2024 - National holiday, no class</summary>
+</details>
 
-* Mar 22, 2024 (online)
+<details>
+  <summary>Mar 22, 2024 (online)</summary>
+
   * Chapter 4 - Imperative programming
     * **Mutable records**
     * **Mutable let-bindings**
@@ -132,10 +141,17 @@ You can find the code walkthroughs in the course sandbox repository:
       * [**F# collection types**](https://docs.microsoft.com/en-us/dotnet/fsharp/language-reference/fsharp-collection-types)
       * [**Sequences**](https://docs.microsoft.com/en-us/dotnet/fsharp/language-reference/sequences)
       * [**Slices**](https://docs.microsoft.com/en-us/dotnet/fsharp/language-reference/slices)
+</details>
 
-* Mar 29, 2024 - **National holiday**, no class
+<details>
+  <summary>Mar 29, 2024 - National holiday, no class</summary>
+</details>
 
-* Apr 5, 2024 (online) - be sure to follow along the course Sandbox repository (see above)
+<details>
+  <summary>Apr 5, 2024 (online)</summary>
+  
+  >Be sure to follow along the course Sandbox repository (see above)
+
   * [Asynchronous computations](https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/async-expressions)
   * Installing [WebSharper project templates](https://docs.websharper.com/basics/templates/)
   * Sitelets - [doc](https://developers.websharper.com/docs/v4.x/fs/sitelets)
@@ -147,15 +163,19 @@ You can find the code walkthroughs in the course sandbox repository:
     * Templating
     * Calling RPCs
   * Example application: [IntelliLogo](https://github.com/granicz/IntelliLogo)
+</details>
 
-
-* Apr 12, 2024 (online)
+<details>
+  <summary>Apr 12, 2024 (online)</summary>
 
   * WebSharper.UI templating - see the Sandbox
     * Simple web form to collect user data
     * Client->Server calls (RPC)
+</details>
 
-* Apr 19, 2024 (online)
+<details>
+  <summary>Apr 19, 2024 (online)</summary>
+
   * WebSharper.UI templating
     * Understanding the difference between `FromDocument` and `Inline` for the client-side templating behavior
   * [WebSharper.Forms](https://github.com/dotnet-websharper/forms) - see the Sandbox
@@ -165,9 +185,25 @@ You can find the code walkthroughs in the course sandbox repository:
     * Multi-case - used for subdiving into a closed set of "shapes"
     * Partial - used to deal with only a partial set of input values -> must return an option 
     * Parameterized partial - using an argument to drive how the returned value is computed 
+</details>
 
-* Apr 26, 2024 (online) - TBD
-* May 3, 2024 (online) - TBD
-* May 10, 2024 (online) - TBD
-* May 17, 2024 (online) - TBD
-* May 24, 2024 (online) - TBD
+<details open>
+  <summary>Apr 26, 2024 (online)</summary>
+
+  * Adding popups in your WebSharper applications
+    * See relevant bits around `LoseChangesReason` in [this commit](https://github.com/granicz/IntelliLogo/commit/7ea5f371f25af8f052a5539e8bf43b4fbb020b40#diff-3ad230a2befab3e4a4dd12f56a1de08f3d4db0345f4c8c1bcb0a81d296d2c534R176)
+  * Quick overview of libraries available for data access
+  * Hands-on: Plotting functions - see [commit](https://github.com/intellifactory/DUE-FSharp-Sandbox-2024/commit/a98948555b1b7ee638afe81a25f2f61784c4ef1d)
+    * WebSharper.Forms to collect data
+    * Parsing math formulas with active patterns
+    * Evaluating an AST to compute values of formulas
+    * Drawing lines on HTML5 Canvas
+</details>
+
+May 3, 2024 (online) - TBD
+
+May 10, 2024 (online) - TBD
+
+May 17, 2024 (online) - TBD
+
+May 24, 2024 (online) - TBD
