@@ -41,16 +41,34 @@
 
 * [Assignment #1](assignment-01.md) - (40 points, due date: **Mar 29, 2024**).
   * Numbers, sequences/lists, mapping/filtering/folding, discriminated unions, functions/recursion
-* Assignment #2 - (30 points) - TBD
+* [Assignment #2](assignment-02.md) - (30 points, due date: **May 17, 2024**).
+  * Basic concepts for building web applications with WebSharper
 * Assignment #3 - (30 points) - TBD
 
 ### Project work
 
 During the course of the semester, you will work on and complete two larger projects.
 
-1. Mid-term project (50 points, due date: **Apr 26, 2024**). TBD
+1. Mid-term project (50 points, due date: **Apr 26, 2024**). You should aim for 200+ LOC, not counting boiler-plate and templates/configuration.
 
 2. Personal project (100 points, due date: **last Sunday of the semester**) - this is a project you can pick for youself, and it is meant to help you explore F# more fully at your own pace and according to your own interest.
+
+> #### Guidelines for projects
+> Projects can be native, mobile, or web applications. For both the mid-term and end-of-semester projects, you should:
+> * Use a public repository (hosted on GitHub or any other host), and send its URL via email.
+> * Have a `README.md` in the root of your repository describing your project, its motivation, and how to build/run it.
+>
+> The README should contain 1) screenshot(s) of your application and 2) a try-live link (for web and mobile apps).
+>
+> For the try-live link, if your app is client-only, use the repository's `gh-pages` to host it, and add a build action that deploys each commit to it. For an example of such build action, see [IntelliLogo's `ghpages.yml`](https://github.com/granicz/IntelliLogo/blob/master/.github/workflows/ghpages.yml), and adapt it to your needs. If your app needs a server-side (for data access, etc.), you should set up auto-deployment to a suitable free host (Azure websites, etc.).
+>
+> If each project was awarded a grade on its own, it would be as follows:
+>
+> * Grade `1` (fail). The project fails to compile, has no or incomplete README, doesn't have a try-live link, or has been fully or largely copied from elsewhere.
+> * Grade `2`. The project idea is unoriginal (it adds little value over an existing project) or has insufficient content.
+> * Grade `3`. The project idea is unoriginal but the implementation makes significant additions, or it centers on a new idea with missing functionality or incomplete features.
+> * Grade `4`. The project implements an original idea, and presents a well-rounded, standalone contribution that has good practical value.
+> * Grade `5` (outstanding). The project solves a real-life problem for a larger audience, and it does so with a polished user interface (UI) and user experience (UX).
 
 ### Course sandbox
 
