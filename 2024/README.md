@@ -15,6 +15,8 @@
   * [Installation](https://docs.microsoft.com/en-us/dotnet/fsharp/get-started/install-fsharp)
     * [Visual Studio Code](https://docs.microsoft.com/en-us/dotnet/fsharp/get-started/get-started-vscode)
     * [Visual Studio](https://docs.microsoft.com/en-us/dotnet/fsharp/get-started/get-started-visual-studio)
+    * [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+    * [TortoiseGit](https://tortoisegit.org/)
   * [F# with .NET CLI](https://docs.microsoft.com/en-us/dotnet/fsharp/get-started/get-started-command-line)
 * Formats and tools
   * [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)

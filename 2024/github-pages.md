@@ -42,6 +42,8 @@ This means that you didn't set the `gh_pages` branch in Step 4 above. If it poin
 
 ## I get an empty page
 
+0. Update your project to use WebSharper 7.x. Make sure you used the `websharper-spa` template or cloned the [SPA Sandbox](https://github.com/intellifactory/DUE-FSharp-SPASandbox-2024) to start from.
+
 1. Make sure that you include the generated JS file using `type="module"` and not `type="text/javascript` in your HTML template.
 
 2. Make sure you correctly reference this generated JS (check that it exists on your local build, obviously).
