@@ -72,9 +72,10 @@ During the course of the semester, you will work on and complete two larger proj
 
 ### Course sandbox
 
-You can find the code walkthroughs in the course sandbox repository:
+You can find the code walkthroughs in the course sandbox repositories:
 
-* [DUE-FSharp-Sandbox-2024](https://github.com/intellifactory/DUE-FSharp-Sandbox-2024)
+* [DUE-FSharp-Sandbox-2024](https://github.com/intellifactory/DUE-FSharp-Sandbox-2024) - a client-server application
+* [DUE-FSharp-SPASandbox-2024](https://github.com/intellifactory/DUE-FSharp-SPASandbox-2024) - a single-page application (SPA)
 
 > If you encounter NuGet errors about missing `WebSharper.*` packages, make sure you have the WebSharper developer NuGet feed configured on your system. [See instructions.](https://docs.websharper.com/basics/nuget/#configuring-the-websharper-developer-feed)
 
@@ -205,7 +206,7 @@ You can find the code walkthroughs in the course sandbox repository:
     * Parameterized partial - using an argument to drive how the returned value is computed 
 </details>
 
-<details open>
+<details>
   <summary>Apr 26, 2024 (online)</summary>
 
   * Adding popups in your WebSharper applications
@@ -218,9 +219,37 @@ You can find the code walkthroughs in the course sandbox repository:
     * Drawing lines on HTML5 Canvas
 </details>
 
-May 3, 2024 (online) - TBD
+<details>
+  <summary>May 3, 2024 (online)</summary>
 
-May 10, 2024 (online) - TBD
+  * Working with the WebSharper SPA template (`websharper-spa`)
+    * Converting sitelets to SPAs - see [SPA Sandbox](https://github.com/intellifactory/DUE-FSharp-SPASandbox-2024) for structuring SPAs
+    * Switching "pages" in an SPA using client-side routing
+    * Setting up auto-deploy with GitHub Actions - see [sample script](https://github.com/intellifactory/DUE-FSharp-SPASandbox-2024/blob/master/.github/workflows/ghpages.yml)
+
+       > #### Steps
+       > 1. Configure a Personal Access Token (PAT) on your GitHub user's Settings page, under Developer Settings, Tokens (classic) - "Generate New Token",  classic token.
+       > 2. Set a note, so you remember what this token was created for, for example "WebSharper developer feed".
+       > 3. Set your expiration timeframe. The token will only work within this time period.
+       > 4. Under "Scopes", check "`read:packages`".
+       > 5. Click "Generate token", and be sure to copy it to your clipboard or save it elsewhere for the next steps.
+       > 6. Now, head over to your repo's Setting page, click "Secrets and variables", then Actions.
+       > 7. Create a new repository secret by clicking "New repository secret" - for the name, use `WEBSHARPER_FEED` (or else change this in the deploy script), and for the value, paste in your PAT from Step 5.
+       > 8. Then go to your repository's settings page, and select Pages, and make sure the "Branch" dropdown is set to `gh-pages`, and hit Save.
+       >
+       > At this point, you should be able to go to:
+       >
+       > `https://<your-username>.github.io/<your-repository>`
+       >
+       > ... and see your SPA up and running.
+
+</details>
+
+<details open>
+  <summary>May 10, 2024 (online)</summary>
+
+  * Looking at several student projects and issues
+</details>
 
 May 17, 2024 (online) - TBD
 
