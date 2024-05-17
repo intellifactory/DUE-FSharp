@@ -69,7 +69,11 @@ During the course of the semester, you will work on and complete two larger proj
 > * Grade `3`. The project idea is unoriginal but the implementation makes significant additions, or it centers on a new idea with missing functionality or incomplete features.
 > * Grade `4`. The project implements an original idea, and presents a well-rounded, standalone contribution that has good practical value.
 > * Grade `5` (outstanding). The project solves a real-life problem for a larger audience, and it does so with a polished user interface (UI) and user experience (UX).
-
+>
+>#### Setting up auto-deployment of your projects
+>
+> See [this page](github-pages.md) for instructions.
+>
 ### Course sandbox
 
 You can find the code walkthroughs in the course sandbox repositories:
@@ -226,23 +230,6 @@ You can find the code walkthroughs in the course sandbox repositories:
     * Converting sitelets to SPAs - see [SPA Sandbox](https://github.com/intellifactory/DUE-FSharp-SPASandbox-2024) for structuring SPAs
     * Switching "pages" in an SPA using client-side routing
     * Setting up auto-deploy with GitHub Actions - see [sample script](https://github.com/intellifactory/DUE-FSharp-SPASandbox-2024/blob/master/.github/workflows/ghpages.yml)
-
-       > #### Steps
-       > 1. Configure a Personal Access Token (PAT) on your GitHub user's Settings page, under Developer Settings, Tokens (classic) - "Generate New Token",  classic token.
-       > 2. Set a note, so you remember what this token was created for, for example "WebSharper developer feed".
-       > 3. Set your expiration timeframe. The token will only work within this time period.
-       > 4. Under "Scopes", check "`read:packages`".
-       > 5. Click "Generate token", and be sure to copy it to your clipboard or save it elsewhere for the next steps.
-       > 6. Now, head over to your repo's Setting page, click "Secrets and variables", then Actions.
-       > 7. Create a new repository secret by clicking "New repository secret" - for the name, use `WEBSHARPER_FEED` (or else change this in the deploy script), and for the value, paste in your PAT from Step 5.
-       > 8. Then go to your repository's settings page, and select Pages, and make sure the "Branch" dropdown is set to `gh-pages`, and hit Save.
-       >
-       > At this point, you should be able to go to:
-       >
-       > `https://<your-username>.github.io/<your-repository>`
-       >
-       > ... and see your SPA up and running.
-
 </details>
 
 <details open>
