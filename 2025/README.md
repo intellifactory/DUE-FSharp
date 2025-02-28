@@ -69,3 +69,16 @@ TBD
   
 </details>
 
+<details>
+  <summary>Feb 28, 2025</summary>
+
+  * Recap
+  * Functional Programming
+    * Piping values (`|>`)
+    * Composing functions (`>>`, `<<`)
+    * Hands-on collections and their operations - `List`, `Array`, `Set`, `Map`, `Seq`
+      * iterating, mapping, folding
+      * other core operations
+    * Hands-on patterns and pattern matching
+    * Hands-on active patterns - conversion, partition, recognition/filter
+</details>
