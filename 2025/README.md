@@ -82,3 +82,46 @@ TBD
     * Hands-on patterns and pattern matching
     * Hands-on active patterns - conversion, partition, recognition/filter
 </details>
+
+<details>
+  <summary>Mar 7, 2025</summary>
+
+  * Installing [WebSharper project templates](https://docs.websharper.com/basics/templates/)
+  * Sitelets - [doc](https://developers.websharper.com/docs/v4.x/fs/sitelets)
+    * Routing via endpoint type annotations, endpoint modifiers (`EndPoint`, `Json`, `FormData`)
+    * Returning various content types (Text, Json, HTML, error codes, custom responses)
+    * Implementing microservices (POST/GET)
+
+</details>
+
+<details>
+  <summary>Mar 14, 2025</summary>
+
+  * [Active patterns](https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/active-patterns)
+    * Single-case - used for value conversion
+    * Multi-case - used for subdiving into a closed set of "shapes"
+    * Partial - used to deal with only a partial set of input values -> must return an option 
+    * Parameterized partial - using an argument to drive how the returned value is computed
+  * Client-side programming with WebSharper.UI - [doc](https://developers.websharper.com/docs/v4.x/fs/ui)
+    * Reactive variables and views
+
+</details>
+
+<details>
+  <summary>Mar 21, 2025</summary>
+
+  * [Asynchronous computations](https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/async-expressions)
+  * WebSharper.UI templating - replacing in-code HTML combinators with templates
+  * Simple web form to collect user data
+
+</details>
+
+<details>
+  <summary>Mar 28, 2025</summary>
+
+  * client->server calls (RPC)
+  * WebSharper.UI templating
+    * Understanding the difference between `FromDocument` and `Inline` for the client-side templating behavior
+  * [WebSharper.Forms](https://github.com/dotnet-websharper/forms) - see the Sandbox
+  * [WebSharper.Charting](https://github.com/dotnet-websharper/forms) - see the Sandbox
+</details>
