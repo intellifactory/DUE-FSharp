@@ -19,11 +19,57 @@
 
 ### Evaluation
 
-TDB
+* Ways to earn a grade:
+  * Mid-term project - 50 points
+  * End-of-term project - 100 points
+  * Extra credit - max 39 points
+* Grade 5 - 135+ points
+* Grade 4 - 120+ points
+* Grade 3 - 105+ points
+* Grade 2 - 90+ points
+* Fail - below 90 points
+
+
+### Projects
+
+During the course of the semester, you will work on two projects of your choosing, helping you explore F# according to your own interests:
+
+1. Project Alpha (50 points, due date: **Apr 25, 2024**). You should aim for 300+ LOC (F#), not counting boiler-plate/comments, and templates/configuration.
+
+2. [Project Omega](project-omega.md) (100 points, due date: **last Sunday of the semester**).
+
+
+> #### Guidelines for projects
+> Projects can be native, mobile, or web applications. For both the mid-term and end-of-semester projects, you should:
+> * Use a public repository (hosted on GitHub or any other host), and send its URL via email.
+> * Have a `README.md` in the root of your repository describing your project, its motivation, and how to build/run it.
+>
+> The README should contain 1) screenshot(s) of your application and 2) a try-live link (for web and mobile apps).
+>
+> For the try-live link, if your app is client-only, use the repository's `gh-pages` to host it, and add a build action that deploys each commit to it. For an example of such build action, see [IntelliLogo's `ghpages.yml`](https://github.com/granicz/IntelliLogo/blob/master/.github/workflows/ghpages.yml), and adapt it to your needs. If your app needs a server-side (for data access, etc.), you should set up auto-deployment to a suitable free host (Azure websites, etc.).
+>
+> If each project was awarded a grade on its own, it would be as follows:
+>
+> * Grade `1` (fail). The project fails to compile, has no or incomplete README, doesn't have a try-live link, or has been fully or largely copied from elsewhere.
+> * Grade `2`. The project idea is unoriginal (it adds little value over an existing project) or has insufficient content.
+> * Grade `3`. The project idea is unoriginal but the implementation makes significant additions, or it centers on a new idea with missing functionality or incomplete features.
+> * Grade `4`. The project implements an original idea, and presents a well-rounded, standalone contribution that has good practical value.
+> * Grade `5` (outstanding). The project solves a real-life problem for a larger audience, and it does so with a polished user interface (UI) and user experience (UX).
+>
+>#### Setting up auto-deployment of your projects
+>
+> TBD
+>
+
 
 ### Course sandbox
 
-TBD
+You can find the code walkthroughs in the course sandbox repositories:
+
+* [DUE-FSharp-SPASandbox-2025](https://github.com/intellifactory/DUE-FSharp-SPASandbox-2025) - a single-page application (SPA)
+
+> If you encounter NuGet errors about missing `WebSharper.*` packages, make sure you have the WebSharper developer NuGet feed configured on your system. [See instructions.](https://docs.websharper.com/basics/nuget/#configuring-the-websharper-developer-feed)
+
 
 ### Course schedule
 
@@ -119,9 +165,16 @@ TBD
 <details>
   <summary>Mar 28, 2025</summary>
 
-  * client->server calls (RPC)
+  * Embedding TryWebSharper snippets in your own apps
   * WebSharper.UI templating
     * Understanding the difference between `FromDocument` and `Inline` for the client-side templating behavior
-  * [WebSharper.Forms](https://github.com/dotnet-websharper/forms) - see the Sandbox
-  * [WebSharper.Charting](https://github.com/dotnet-websharper/forms) - see the Sandbox
+  * [WebSharper.Forms](https://github.com/dotnet-websharper/forms) - reactive web forms 
+  * [WebSharper.Charting](https://github.com/dotnet-websharper/forms) - charting and visualization
+</details>
+
+<details>
+  <summary>Apr 4, 2025</summary>
+
+  * client->server calls (RPC)
+  * TBD
 </details>
