@@ -175,6 +175,58 @@ You can find the code walkthroughs in the course sandbox repositories:
 <details>
   <summary>Apr 4, 2025</summary>
 
-  * client->server calls (RPC)
+  * Hydration
+  * Client->Server calls (RPC)
+  * Web service calls
+  * Miscellaneous topics in client-side programming
+    * `IsClient` + hydration
+    * `Doc.Async`
+</details>
+
+<details>
+  <summary>Apr 11, 2025</summary>
+
+  * Survey of F# data access libraries
+</details>
+
+<details>
+  <summary>Apr 18, 2025 - no class</summary>
+</details>
+
+<details>
+  <summary>Apr 25, 2025</summary>
+
+  * Working with relational data
+  * Microsoft SQL Server Management Studio
+    * Creating databases
+    * Creating tables
+    * Adding PK/FK constraints
+  * Using Dapper in F#
+  
+</details>
+
+<details>
+  <summary>May 2, 2025 - no class</summary>
+</details>
+
+<details>
+  <summary>May 9, 2025</summary>
+
+  * Dependent type systems
+  * [Units of measure](https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/units-of-measure)
+  * Reflection (`System.Reflection`)
+    * Inspecting assemblies
+    * CIL generation (`System.Reflection.Emit`)
+  * Working with F# ASTs - [FsAST](https://github.com/ionide/FsAst)
+  * [F# Compiler Services (FCS)](https://fsharp.github.io/fsharp-compiler-docs/fcs/)
+  * Domain-specific languages (DSLs)
+  * Notable derivative languages: F*, Q#
+
+
+</details>
+
+<details>
+  <summary>May 16, 2025</summary>
+
   * TBD
 </details>
