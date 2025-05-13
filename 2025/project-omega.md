@@ -4,4 +4,5 @@
 | --- | --- | --- |
 | YJ6LEY | OCR for images and pdfs using AI | TBD |
 | MRKFSH | Thesis archive portal | TBD |
+| OVH077 | general knowledge quiz game | https://github.com/thenyari/BrainTrain |
 
