@@ -34,7 +34,7 @@
 
 During the course of the semester, you will work on two projects of your choosing, helping you explore F# according to your own interests:
 
-1. Project Alpha (50 points, due date: **Apr 25, 2024**). You should aim for 300+ LOC (F#), not counting boiler-plate/comments, and templates/configuration.
+1. [Project Alpha](project-alpha.md) (50 points, due date: **Apr 25, 2024**). You should aim for 300+ LOC (F#), not counting boiler-plate/comments, and templates/configuration.
 
 2. [Project Omega](project-omega.md) (100 points, due date: **last Sunday of the semester**).
 
