@@ -118,7 +118,7 @@ addOne 1 // evaluates to 2
 Let's take a look at a function that takes two parameters:
 
 ```fsharp
-let add x y = x + 1
+let add x y = x + y
 ```
 It will have a tooltip `val add: x:int -> y:int -> int`.
 
