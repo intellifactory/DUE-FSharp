@@ -25,7 +25,7 @@
 | A5ULPX | Image compressor | https://github.com/duemmr/image-compressor |
 | HFAA90 | MarketCapF# | https://github.com/DmitriiDrugov/MarketCapFSHARP |
 | L1ANGK | Markdown to HTML converter | https://github.com/Szisza/L1ANGK_Project_Alpha |
-| FKHSEP | Random Workout Generator | https://github.com/ihaszkaroly/RandomWorkoutGenerator/tree/main |
+| FKHSEP | Random Workout Generator | https://github.com/ihaszkaroly/RandomWorkoutGenerator |
 | JOGA1N | MindPebbles | https://github.com/Deryckboiii/mindpebbles |
 | EEO220 | Movie App - F# Web Application with ASP.NET Core MVC | https://github.com/frubenp/MvcMovie |
 | EA9ZEL | Advent of Code puzzles | https://github.com/ukmukfukk/FSProjectAlpha |
@@ -51,4 +51,4 @@
 | Z770GM | WepeBot | https://github.com/BandreasHun/Fsharptelgrambot |
 | Q4PTDR | Motivational Quotes | https://github.com/Zsena/MotivationalQuotes |
 | FIR39A | QuizApp | https://github.com/FIR39A/fsharp-quiz-app |
-
+| N5HB8N | Note encryption | https://github.com/KJosephhh/Midterm-Project |
