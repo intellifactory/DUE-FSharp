@@ -3,7 +3,7 @@
 | Neptun code | Description | URL |
 | --- | --- | --- |
 | YJ6LEY | AI Image OCR with WebSharper | https://github.com/Bajahaw/ocr-websharper |
-| MRKFSH | Thesis management system | https://github.com/fatihaBizermimne/Thesis_Management_system |
+| MRKF5H | Thesis management system | https://github.com/fatihaBizermimne/Thesis_Management_system |
 | O5XWGB | Comparing JSON files web app | https://github.com/BRTHrepo/JsonToolboxWebApp |
 | G5LFWT | CarTrack - Vehicle Service Registration System (enhanced) | https://github.com/NoAr2011/AlphaProject |
 | JUWTWJ | Koi fishtank | |
@@ -28,12 +28,12 @@
 | FBJ0C3 | Path visualization | https://github.com/ffBahamuth/DUE-FSharp |
 | FKHSEP | BudgetBuddy | https://github.com/ihaszkaroly/BudgetBuddy |
 | GSG7MD | Study Time Tracker | https://github.com/Csatapatkany73/Project-Omega |
-| JOGA1N | FinTrack – Personal Finance Tracker | FinTrack – Personal Finance Tracker |
+| JOGA1N | FinTrack – Personal Finance Tracker | https://github.com/Deryckboiii/fintrack |
 | FJXZ5D | SunGym | https://github.com/mate477/OmegaProjectF |
 | N5HB8N | LLama chat | https://github.com/KJosephhh/Endterm-Project |
 | ANXGUN | Local Budget Manager - F# Avalonia Desktop App | https://github.com/Szentesi0630/ProjectOmega-ANXGUN |
 | RZNXGA | Dog Shelter Management System | https://github.com/SyungWonBunny/ProjectOmega.RZNXGA |
-| AIL0BL | Taskify (404) | https://github.com/Ayekos/Taskify.git |
+| AIL0BL | Taskify | https://github.com/Ayekos/Taskify.git |
 | Z770GM | Comprehensive Game Engine Tutorial | https://github.com/BandreasHun/Fengine |
 | EYFCYE | Gatekeeper | https://github.com/adrianknapik/Gatekeeper |
 | WIUDUC | HotelManagerApp | https://github.com/Lilluska01/THEProjectOmega |
@@ -47,4 +47,9 @@
 | F53SJO | categorization-program (unfinished) | https://github.com/lisa202527/categorization-program |
 | YSHJL1 | Logic Quest Game | https://github.com/acka201/Projekt-omega |
 | FIR39A | F-golf game | https://github.com/FIR39A/F-Golf-game |
- https://github.com/BRTHrepo/JsonToolboxWebApp
+| AR9J5F | Student Task Manager | https://github.com/Jebraouilyass/StudentTaskManager |
+| OYAI6H | HabitHub | https://github.com/AnnaPolovkova/habit-hub-project |
+| EEO220 | S-DES Cracker Webapp | https://github.com/frubenp/Project-Omega |
+| DRJE7Y | Multispectral Analyzer v1.0 beta | https://github.com/orbangabor1987/multispectraldemo |
+| L5KWG1 | Habit tracker | https://github.com/balazshuszta/habit-tracker |
+| JGWFHR | ? | ? |

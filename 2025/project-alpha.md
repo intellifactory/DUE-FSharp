@@ -2,7 +2,6 @@
 
 | Neptun code | Description | URL |
 | --- | --- | --- |
-| MRKFSH | Thesis archive portal |  |
 | Z94OYV | Commodity market calculations | |
 | O5XWGB | Comparing JSON files | https://github.com/BRTHrepo/jsonComparator |
 | G5LFWT | CarTrack – Vehicle Service Registration System | https://github.com/NoAr2011/AlphaProject |
@@ -30,7 +29,7 @@
 | EEO220 | Movie App - F# Web Application with ASP.NET Core MVC | https://github.com/frubenp/MvcMovie |
 | EA9ZEL | Advent of Code puzzles | https://github.com/ukmukfukk/FSProjectAlpha |
 | WIUDUC | Task Generator | https://github.com/Lilluska01/ProjectAlpha |
-| AIL0BL | ? | 404 |
+| AIL0BL | QuizGame | https://github.com/Ayekos/QuizGame |
 | DBWLPG | Meal Master | https://github.com/bettiberec/DBWLPG_Project_Alpha |
 | DO21OO | Stock simulation mini-game | https://github.com/matesebok22/f-sharp-project-alpha |
 | EYFCYE | Flood Simulation System | https://github.com/adrianknapik/FloodSimulator |
@@ -52,3 +51,6 @@
 | Q4PTDR | Motivational Quotes | https://github.com/Zsena/MotivationalQuotes |
 | FIR39A | QuizApp | https://github.com/FIR39A/fsharp-quiz-app |
 | N5HB8N | Note encryption | https://github.com/KJosephhh/Midterm-Project |
+| RZNXGA | Dog shelter | https://github.com/SyungWonBunny/ProjectAlfa-RZNXGA |
+| AIL0BL | Quiz game | https://github.com/Ayekos/QuizGame |
+| L5KWG1 | ADHD Focus Timer | https://github.com/balazshuszta/adhd-focus-timer |
