@@ -8,7 +8,7 @@
 
 ## Online link
 
->Classes will be on Google Meet eack week - [connect Here](https://meet.google.com/qur-sdrq-bnk).
+>Classes will be on Google Meet each week - [connect here](https://meet.google.com/qur-sdrq-bnk).
 >
 >This link will remain the same during the semester.
 
