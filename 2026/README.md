@@ -4,7 +4,8 @@
 
 ## Instructor
 
-* Adam Granicz (adam@intellifactory.com, [GitHub:granicz](https://github.com/granicz), [Twitter:@granicz](https://twitter.com/granicz)), [IntelliFactory](https://intellifactory.com)
+* Adam Granicz - [GitHub:granicz](https://github.com/granicz), [Twitter:@granicz](https://twitter.com/granicz), [IntelliFactory](https://intellifactory.com)
+  * Email: adam+due@intellifactory.com
 
 ## Online link
 
@@ -130,11 +131,45 @@ You can find the code walkthroughs in the course sandbox repositories:
 <details>
   <summary>Mar 6, 2025</summary>
 
-  * Active patterns - conversion, partition, recognition/filter
+  * [Active patterns](https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/active-patterns) - conversion, partition, recognition/filter
+    * Single-case - used for value conversion
+    * Multi-case - used for subdiving into a closed set of "shapes"
+    * Partial - used to deal with only a partial set of input values -> must return an option 
+    * Parameterized partial - using an argument to drive how the returned value is computed
+
   * Installing [WebSharper project templates](https://docs.websharper.com/core/getting-started)
   * Sitelets - [doc](https://docs.websharper.com/core/sitelets)
     * Routing via endpoint type annotations, endpoint modifiers (`EndPoint`, `Json`, `FormData`)
     * [Returning various content types](https://docs.websharper.com/core/content) (Text, Json, HTML, error codes, custom responses)
     * Implementing microservices (POST/GET)
+
+</details>
+
+<details>
+  <summary>Mar 13, 2025</summary>
+
+  * [Asynchronous computations](https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/async-expressions)
+  * WebSharper [project types](https://docs.websharper.com/core/getting-started) (SPA, client-server, services, etc.)
+  * Client-side programming with WebSharper.UI - [doc](https://docs.websharper.com/ui/html)
+    * Reactive variables (RVs) and views
+  * [WebSharper.UI templating](https://docs.websharper.com/ui/templating) - replacing in-code HTML combinators with templates
+    * `ws-children-template`/`ws-template` to create templates/sub-templates
+    * `ws-var` to bind input controls to RVs
+      * Can be accessed directly via the RV
+      * Can be accessed via `e.Vars.XXX` in template-based event handlers, where `e` is the element on which the event is triggered 
+    * `ws-hole`/`ws-replace` to define placeholders
+    * `ws-anchor`/`ws-dom` to reference raw HTML elements
+</details>
+
+<details>
+  <summary>Mar 20, 2025</summary>
+
+  * [WebSharper.UI templating](https://docs.websharper.com/ui/templating)
+    * Understanding the difference between `FromDocument` and `Inline` for the client-side templating behavior
+  * Simple web form to collect user data
+  * [WebSharper.Forms](https://docs.websharper.com/forms) - [repo](https://github.com/dotnet-websharper/forms) - reactive web forms
+    * Separate form composition from rendering
+  * [WebSharper.Charting](https://github.com/dotnet-websharper/forms) - charting and visualization
+  * Embedding TryWebSharper snippets in your own apps
 
 </details>
