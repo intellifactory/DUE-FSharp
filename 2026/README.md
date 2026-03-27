@@ -69,7 +69,7 @@ During the course of the semester, you will work on two projects of increasing s
 
 You can find the code walkthroughs in the course sandbox repositories:
 
-* DUE-FSharp-SPASandbox-2026 - a single-page application (SPA)
+* [DUE-FSharp-SPASandbox-2026](https://github.com/intellifactory/DUE-FSharp-SPASandbox-2026) - a single-page application (SPA)
 
 > If you encounter NuGet errors about missing `WebSharper.*` packages, make sure you have the WebSharper developer NuGet feed configured on your system. [See instructions.](https://docs.websharper.com/core/nuget#configuring-the-websharper-developer-feed)
 
@@ -169,6 +169,18 @@ You can find the code walkthroughs in the course sandbox repositories:
   * Simple web form to collect user data
   * [WebSharper.Forms](https://docs.websharper.com/forms) - [repo](https://github.com/dotnet-websharper/forms) - reactive web forms
     * Separate form composition from rendering
+
+</details>
+
+<details>
+  <summary>Mar 27, 2025</summary>
+
+  * Hydration
+  * Client->Server calls (RPC)
+  * Web service calls
+  * Miscellaneous topics in client-side programming
+    * `IsClient` + hydration
+    * `Doc.Async`
   * [WebSharper.Charting](https://github.com/dotnet-websharper/forms) - charting and visualization
   * Embedding TryWebSharper snippets in your own apps
 
