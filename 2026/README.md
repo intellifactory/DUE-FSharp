@@ -185,3 +185,16 @@ You can find the code walkthroughs in the course sandbox repositories:
   * Embedding TryWebSharper snippets in your own apps
 
 </details>
+
+<details>
+  <summary>Apr 3, 2025 - no class</summary>
+</details>
+
+<details>
+  <summary>Apr 10, 2025</summary>
+
+  * Survey of F# data access libraries
+  * Fullstack/client-server applications (`websharper-web`)
+  * Hydration
+
+</details>
