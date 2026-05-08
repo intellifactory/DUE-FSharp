@@ -116,7 +116,7 @@ You can find the code walkthroughs in the course sandbox repositories:
 </details>
 
 <details>
-  <summary>Feb 27, 2025</summary>
+  <summary>Feb 27, 2026</summary>
 
   * Recap
   * Functional Programming
@@ -129,7 +129,7 @@ You can find the code walkthroughs in the course sandbox repositories:
 </details>
 
 <details>
-  <summary>Mar 6, 2025</summary>
+  <summary>Mar 6, 2026</summary>
 
   * [Active patterns](https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/active-patterns) - conversion, partition, recognition/filter
     * Single-case - used for value conversion
@@ -146,7 +146,7 @@ You can find the code walkthroughs in the course sandbox repositories:
 </details>
 
 <details>
-  <summary>Mar 13, 2025</summary>
+  <summary>Mar 13, 2026</summary>
 
   * [Asynchronous computations](https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/async-expressions)
   * WebSharper [project types](https://docs.websharper.com/core/getting-started) (SPA, client-server, services, etc.)
@@ -162,7 +162,7 @@ You can find the code walkthroughs in the course sandbox repositories:
 </details>
 
 <details>
-  <summary>Mar 20, 2025</summary>
+  <summary>Mar 20, 2026</summary>
 
   * [WebSharper.UI templating](https://docs.websharper.com/ui/templating)
     * Understanding the difference between `FromDocument` and `Inline` for the client-side templating behavior
@@ -173,7 +173,7 @@ You can find the code walkthroughs in the course sandbox repositories:
 </details>
 
 <details>
-  <summary>Mar 27, 2025</summary>
+  <summary>Mar 27, 2026</summary>
 
   * Hydration
   * Client->Server calls (RPC)
@@ -187,14 +187,57 @@ You can find the code walkthroughs in the course sandbox repositories:
 </details>
 
 <details>
-  <summary>Apr 3, 2025 - no class</summary>
+  <summary>Apr 3, 2026 - no class</summary>
 </details>
 
 <details>
-  <summary>Apr 10, 2025</summary>
+  <summary>Apr 10, 2026</summary>
 
   * Survey of F# data access libraries
+  * [Microsoft SQL Server Management Studio](https://learn.microsoft.com/en-us/ssms/install/install)
+    * Creating databases
+    * Creating tables
+    * Adding PK/FK constraints
   * Fullstack/client-server applications (`websharper-web`)
   * Hydration
+
+</details>
+
+<details>
+  <summary>Apr 17, 2026</summary>
+
+  * Fullstack/client-server applications (`websharper-web`)
+  * Data access with SqlHydra
+
+</details>
+
+<details>
+  <summary>Apr 24, 2026</summary>
+
+  * Different application architectures
+  * Model-View-Update (MVU)
+    * [Elm](https://elm-lang.org/)/[Elmish](https://elmish.github.io/elmish/)
+    * [WebSharper.Mvu](https://docs.websharper.com/mvu)
+    * [Bolero](https://fsbolero.io/)
+    * [Fabulous](https://fabulous.dev/)
+
+</details>
+
+<details>
+  <summary>May 1, 2026 - no class</summary>
+</details>
+
+<details>
+  <summary>May 8, 2026</summary>
+
+  * Dependent type systems
+  * [Units of measure](https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/units-of-measure)
+  * Reflection (`System.Reflection`)
+    * Inspecting assemblies
+    * CIL generation (`System.Reflection.Emit`)
+  * Working with F# ASTs - [FsAST](https://github.com/ionide/FsAst)
+  * [F# Compiler Services (FCS)](https://fsharp.github.io/fsharp-compiler-docs/fcs/)
+  * Domain-specific languages (DSLs)
+  * Notable derivative languages: F*, Q#
 
 </details>
