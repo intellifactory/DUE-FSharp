@@ -238,6 +238,32 @@ You can find the code walkthroughs in the course sandbox repositories:
   * Working with F# ASTs - [FsAST](https://github.com/ionide/FsAst)
   * [F# Compiler Services (FCS)](https://fsharp.github.io/fsharp-compiler-docs/fcs/)
   * Domain-specific languages (DSLs)
-  * Notable derivative languages: F*, Q#
+  * Notable derivative languages: [F*](https://fstar-lang.org/), [Q#](https://learn.microsoft.com/en-us/azure/quantum/qsharp-overview)
+
+</details>
+
+<details>
+  <summary>May 15, 2026</summary>
+
+  * Implementing DSLs - overview/topics
+    * Abstract syntax trees (ASTs)
+      * F# [quotations](https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/code-quotations)
+      * [FCS](https://fsharp.github.io/fsharp-compiler-docs/fcs/)
+      * [FsAST](https://github.com/ionide/FsAst)
+    * Internal representation (IRs) - typed vs untyped
+    * code generation (source or IL)
+  * Compilers vs interpreters
+    * Lexing+parsing with [FsLexYacc](https://github.com/fsprojects/FsLexYacc)
+    * Moving lexing+parsing to the client with [WebSharper.FsLexYacc](https://docs.websharper.com/metaprogramming/fslexyacc)
+    * Parsing with active patterns (see [this blog article](https://intellifactory.com/user/granicz/20090523-parsing-with-active-patterns) for an example)
+    * Interpreting ASTs/IRs (see [IntelliLogo](https://github.com/granicz/IntelliLogo) for a basic example)
+    * Source-to-source code generation/pretty-printing ASTs/IRs to F# and other languages
+    * WebSharper [source code generators (SCGs)](https://docs.websharper.com/metaprogramming/fsharp-code-generators)
+    * Compiling to .NET code with [FCS](https://fsharp.github.io/fsharp-compiler-docs/fcs/)
+  * How our roles as developers are shifting with AI
+    * Enrolling coding agents to move projects forward
+      * [Repo Assist](https://github.com/githubnext/agentics/blob/main/docs/repo-assist.md)
+    * Understanding the cost of involving AI in development
+    * Streamlining code synthesis with metaprogramming -> your key future skill
 
 </details>
